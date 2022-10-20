@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portfólio Vitor Dias</title>
+    <!-- Navegação e início -->
+    <link rel="stylesheet" href="/assets/css/navegacao-inicio.css" />
+    <!-- Sobre mim -->
+    <link rel="stylesheet" href="/assets/css/sobre-mim.css" />
+    <!-- Projetos -->
+    <link rel="stylesheet" href="/assets/css/projetos.css" />
+    <!-- Habilidades -->
+    <link rel="stylesheet" href="/assets/css/habilidades.css" />
+    <!-- footer -->
+    <link rel="stylesheet" href="/assets/css/footer.css" />
+    
+</head>
+<body onload="typeWriter(fName);">
+    <div>
+    <!-- menu -->
+    <input
+    id="close-menu"
+    class="close-menu"
+    type="checkbox"
+    aria-label="close-menu"
+    role="button"/>
+  <label
+    class="close-menu-label"
+    for="close-menu"
+    title="close menu"></label>
+  <div class="barra">
+    <div class="menu-centro">
+      <div class="barra-conteiner centralizador">
+        <div class="logo esquerda">
+          <a href="index.html"><img src="#" alt="logo"/></a>
+        </div>
+        <nav class="direita">
+          <ul onclick="getElementById('close-menu').checked=false;">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#projetos">Habilidades</a></li>
+            <li><a href="#habilidades">Projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- menu -->
+
+  <!-- primeira tela -->
+  <section id="inicio">
+    <div class="altura-ajuste">
+      <div class="inicio centralizador">
+        <div class="ajustador organizador">
+          <div class="apresentacao">
+            <p class="descricao">
+              Oi, eu sou <br />
+              <span style="display: inline" class="meu-nome"
+                >Vitor Dias.</span
+              >
+              <br />
+              <!-- Desenvolvedor Full Stack -->
+              Desenvolvedor Front-end
+            </p>
+            <br />
+            <div class="linkedin">
+              <a
+                href="https://www.linkedin.com/in/vitordiass/"
+                target="_blank"
+                class="link"
+                >Linkedin</a
+              >
+            </div>
+          </div>
+          <div class="desenho">
+            <img
+              class="desenho2"
+              src="#"
+              alt="Eu-em-desenho"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- primeira tela -->
+
+  <!-- sobre mim -->
+  <section id="sobre-mim">
+    <div class="centralizador">
+      <div class="ajustador-2">
+        <div class="sobre-mim">
+          <h2>Sobre mim</h2>
+          <br/>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non voluptatem asperiores, nam delectus minus porro quas vitae deserunt vel ad eveniet alias quis fugiat sequi placeat quam eligendi reiciendis.</p>
+          <br/>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed ratione animi nihil, ut mollitia enim illo quia nobis sit dolorem porro libero obcaecati architecto hic. Nisi adipisci aut dolorum!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- sobre mim -->
+
+   <!-- Projetos -->
+   <section id="projetos">
+    <div class="centralizador projetos">
+      <h2 class="project">Projetos</h2>
+      <div class="projetos-itens">
+        <div class="pro">
+          <div class="breve"><p>EM BREVE</p></div>
+        </div>
+        <div class="pro">
+          <div class="breve"><p>EM BREVE</p></div>
+        </div>
+        <div class="pro">
+          <div class="breve"><p>EM BREVE</p></div>
+        </div>
+        <div class="pro escondido">
+          <div class="breve"><p>EM BREVE</p></div>
+        </div>
+        <div class="pro escondido">
+          <div class="breve"><p>EM BREVE</p></div>
+        </div>
+        <div class="pro escondido">
+          <div class="breve"><p>EM BREVE</p></div>
+        </div>
+      </div>
+
+      <div class="github-link">
+        <button>Ver mais</button>
+        <a href="https://github.com/Vitrola62?tab=repositories" target="_blank">Repositórios no github</a>
+      </div>
+    </div>
+  </section>
+  <!-- Projetos -->
+
+  <!-- Habilidades -->
+  <section id="habilidades">
+    <div class="centralizador">
+      <div class="habilidades-pd">
+        <h2 class="project">Habilidades</h2>
+        <div class="skills-descricao">
+          <div class="conteiner-skills">
+            <div class="skill-box skill1 html-skill">
+              <img
+                class="icones-habilidades"
+                src="/img/html.svg"
+                alt="html-icon"/>
+            </div>
+            <div class="skill-box skill2 css-skill">
+              <img
+                class="icones-habilidades"
+                src="/img/css.svg"
+                alt="css-icon"/>
+            </div>
+            <div class="skill-box skill3 js-skill">
+              <img
+                class="icones-habilidades"
+                src="/img/js.svg"
+                alt="js-icon"/>
+            </div>
+            <!-- <div class="skill-box skill4"> <img class="icones-habilidades" src="/assets/img/node.svg" alt="node-icon"> </div>
+              <div class="skill-box skill5"> <img class="icones-habilidades" src="/assets/img/php.svg" alt="php-icon"> </div>
+              <div class="skill-box skill6"> <img class="icones-habilidades" src="/assets/img/java.svg" alt="java-icon"> </div>
+              div class="skill-box skill8"> <img class="icones-habilidades" src="/assets/img/sql.svg" alt="sql-icon"> </div> -->
+            <div class="skill-box skill8">
+              <img
+                class="icones-habilidades"
+                src="/img/styled 1.svg"
+                alt="react-icon"/>
+            </div>
+            <div class="skill-box skill13 sass-skill">
+              <img
+                class="icones-habilidades"
+                src="/img/sass.svg"
+                alt="sass-icon"/>
+            </div>
+            <div class="skill-box skill9 git-skill">
+              <img
+                class="icones-habilidades"
+                src="/img/git.svg"
+                alt="git-icon" />
+            </div>
+            <div class="skill-box skill10 github-skill">
+              <img
+                class="icones-habilidades"
+                src="/img/github.svg"
+                alt="github-icon" />
+            </div>
+            <!--  <div class="skill-box skill11"> <img class="icones-habilidades" src="/assets/img/bootstrap.svg" alt="bootstrap-icon"> </div> -->
+            <!--   <div class="skill-box skill12"> <img class="icones-habilidades" src="/assets/img/typescript.svg" alt="typescript-icon"> </div> -->
+          </div>
+          <div class="conteiner-descricao">
+            <p class="texto-descricao">
+              /* Passe o mouse por cima de alguma habilidade para ler a
+              descrição */
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Habilidades -->
+
+   <!-- footer -->
+   <footer class="footer">
+    <div class="footer-conteiner">
+      <div class="contato-creditos">
+        E-mail para contato: vitordias-sousa@hotmail.com<br />
+      </div>
+      <div class="icons">
+        <div class="links links1">
+          <a href="https://github.com/Vitrola62" target="_blank">
+            <img
+              class="transparente"
+              src="/img/githubff.svg"
+              alt="github-icon"
+            />
+          </a>
+        </div>
+        <div class="links links2">
+          <a
+            href="https://www.linkedin.com/in/vitordiass/"
+            target="_blank"
+          >
+            <img
+              class="transparente"
+              src="/img/linkedinff.svg"
+              alt="github-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+  </div>
+    <script src="./assets/css/js/scroll.js"></script>
+    <script src="./assets/css/js/maquina_escrever.js"></script>
+    <script src="./assets/css/js/habilidades.js"></script>
+</body>
+</html>
