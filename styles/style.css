@@ -1,3 +1,4 @@
+/* Criando menu */
 .menu {
     position: fixed;
     top: 0;
@@ -62,7 +63,9 @@
     width: 50%;
     left: 25%;
 }
+/* Menu criado */
 
+/* Criando inicio */
 .inicio-content {
     padding-top: 0;
     top: -6.5rem;
@@ -131,19 +134,16 @@
     var(--primary-color) 0px 0px 10px 1px;
     border-radius: 8px;
 }
+/* Inicio criado */
+
+/* Criando sobre */
 
 
 
-::-webkit-scrollbar {
-    width: 10px;
-    background-color: var(--scrollbar);
-}
 
-::-webkit-scrollbar-thumb {
-    background-color: var(--primary-color);
-    border-radius: 5px;
-}
+/* Sobre criado */
 
+/* Criando footer */
 .footer-content {
     text-align: center;
     letter-spacing: 0.3rem;
@@ -159,3 +159,16 @@
     color: rgb(76, 217, 105);
     transition: .5s;
 }
+/* Footer criado */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--scrollbar);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+/* Scrollbar */
