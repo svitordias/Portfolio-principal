@@ -1,7 +1,11 @@
 :root {
-  --primary-color: #0A1128;
-  --light-gray-color: #eee;
+  --primary-color: #32965D;
+  --light-gray-color: #1E1E1E;
   --white-color: #FFFFFF;
+  --gray-2: #151515;
+  --gray-color: #121212;
+  --escrita: #C4C4C4;
+  --scrollbar: #1b1b1b;
   --gap: 3rem;
 }
 
@@ -17,42 +21,37 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  color: var(--primary-color);
-  background: var(--primary-color);
+  color: var(--escrita);
+  line-height: 2;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  font-size: 6rem;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 5.5rem;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 5rem;
-  text-transform: uppercase;
-}
-
-h4 {
-  font-size: 4.5rem;
-  text-transform: uppercase;
-}
-
-h5 {
   font-size: 4rem;
   text-transform: uppercase;
 }
 
-h6 {
-  font-size: 3.5rem;
+h2 {
+  font-size: 33px;
   text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: var(--escrita);
+}
+
+h4 {
+  font-size: 2rem;
+  color: var(--escrita);
+}
+
+p {
+  font-size: 15px;
 }
 
 a {
@@ -62,11 +61,13 @@ a {
 .main-bg {
   background-size: cover;
   background-position: center;
-  color: var(--white-color);
+  color: var(--escrita);
+  background: var(--gray-color);
 }
 
 .white-bg {
-  background: var(--white-color);
+  background: var(--gray-2);
+  color: var(--escrita);
 }
 
 .main-content {
@@ -77,4 +78,8 @@ a {
 
 .section {
   min-height: 100vh;
+}
+
+.menu-spacong {
+  height: 65px;
 }
