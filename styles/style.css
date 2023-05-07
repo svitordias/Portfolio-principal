@@ -29,10 +29,13 @@
     color: inherit;
 }
 
+.menu h1 a:hover {
+    color: #4cd969;
+}
+
 .menu ul {
     list-style: none;
     display: flex;
-    gap: var(--gap);
     letter-spacing: 0.15rem;
 }
   
@@ -97,10 +100,10 @@
     color: var(--escrita);
 }
 
+
 .social-content img{
     position: relative;
     width: 22px;
-    
 }
 
 .principal-botao-linkedin, .principal-botao-github {
@@ -121,9 +124,15 @@
     color: var(--white-color);
 }
 
+
 .principal-botao-github:hover, .principal-botao-linkedin:hover {
-    background-color: var(--primary-color);
+    border: 1.5px solid var(--primary-color);
+    box-shadow: var(--primary-color) 0px 0px 10px 1px inset,
+    var(--primary-color) 0px 0px 10px 1px;
+    border-radius: 8px;
 }
+
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -133,4 +142,20 @@
 ::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
     border-radius: 5px;
+}
+
+.footer-content {
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.footer-content a{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.footer-content a:hover{
+    font-weight: bold;
+    color: rgb(76, 217, 105);
+    transition: .5s;
 }

@@ -7,6 +7,10 @@
   --escrita: #C4C4C4;
   --scrollbar: #1b1b1b;
   --gap: 3rem;
+
+  --cor-background: #212123;
+  --cor-reflexo: #ffffff66;
+  --cores-dancantes: #4cd969, #34aadc, #5856d9,#ff2d53;
 }
 
 * {
