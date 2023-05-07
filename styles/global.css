@@ -1,16 +1,12 @@
 :root {
+  --white-color: #FFFFFF;
   --primary-color: #32965D;
   --light-gray-color: #1E1E1E;
-  --white-color: #FFFFFF;
-  --gray-2: #151515;
+  --light-gray-color-2: #151515;
   --gray-color: #121212;
   --escrita: #C4C4C4;
   --scrollbar: #1b1b1b;
   --gap: 3rem;
-
-  --cor-background: #212123;
-  --cor-reflexo: #ffffff66;
-  --cores-dancantes: #4cd969, #34aadc, #5856d9,#ff2d53;
 }
 
 * {
@@ -70,7 +66,7 @@ a {
 }
 
 .white-bg {
-  background: var(--gray-2);
+  background: var(--light-gray-color-2);
   color: var(--escrita);
 }
 

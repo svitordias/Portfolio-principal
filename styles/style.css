@@ -94,9 +94,16 @@
 .inicio-img img{
     max-width: 100%;
     height: auto;
+    transition: all 300ms ease-in-out;
 }
 
+.inicio-img img:hover {
+    transform: translate(-3%, 3%) scale(1.2) rotate(4deg);
+}
+
+
 .social-content {
+    margin-top: 1.5rem;
     display: flex;
     width: 350px;
     justify-content: space-between;
