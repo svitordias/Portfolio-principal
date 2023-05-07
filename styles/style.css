@@ -80,6 +80,7 @@
 }
 
 .inicio-text-content, .inicio-img {
+    padding-top: 10rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -116,7 +117,8 @@
     width: 22px;
 }
 
-.principal-botao-linkedin, .principal-botao-github {
+.principal-botao-linkedin, .principal-botao-github, 
+.principal-botao-curriculo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -135,8 +137,9 @@
 }
 
 
-.principal-botao-github:hover, .principal-botao-linkedin:hover {
-    border: 1.5px solid var(--primary-color);
+.principal-botao-github:hover, .principal-botao-linkedin:hover, 
+.principal-botao-curriculo:hover {
+    border: 1px solid var(--primary-color);
     box-shadow: var(--primary-color) 0px 0px 10px 1px inset,
     var(--primary-color) 0px 0px 10px 1px;
     border-radius: 8px;
@@ -144,9 +147,44 @@
 /* Inicio criado */
 
 /* Criando sobre */
+.sobre-mim {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 0.3rem;
+}
 
+.sobre-mim h2 {
+    margin-bottom: 3rem;
+}
 
+.sobre-mim h3 {
+    margin-bottom: 1.5rem;
+}
 
+.sobre-mim p {
+    letter-spacing: 0.2rem;
+}
+
+.sobre-img img {
+    max-width: 100%;
+    height: auto;
+    transition: all 300ms ease-in-out;
+    filter: opacity(75%);
+    width: 100%;
+}
+
+.sobre-img img:hover {
+    transform: translate(-3%, 3%) scale(1.1);
+}
+
+.curriculo-content {
+    font-size: 15px;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--escrita);
+}
 
 /* Sobre criado */
 
