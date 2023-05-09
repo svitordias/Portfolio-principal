@@ -94,7 +94,7 @@
 
 #escritor {
     font: 500 4rem monospace;
-    color: var(--escrita);
+    color: var(--primary-color);
 }
 
 #escritor::after {
