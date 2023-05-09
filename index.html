@@ -14,13 +14,19 @@
 </head>
 <body class="main-bg">  
 
+  <input id="close-menu" class="close-menu" type="checkbox"
+  arial-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close" ></label>
     <!-- Menu -->
     <aside class="menu white-bg">
         <section class="menu white-bg">
             <div class="main-content menu-content">
-            <h1><a href="#inicio">&lsaquo;VDS/&rsaquo;</a></h1>
+              <h1 onclick="getElementById('close-menu').checked = false">
+                <a href="#inicio">&lsaquo;VDS/&rsaquo;</a>
+              </h1>
+
             <nav>
-            <ul>
+            <ul onclick="getElementById('close-menu').checked = false">
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
@@ -93,31 +99,39 @@
       <h2>Projetos</h2>
       <div class="projetos">
         <section class="projeto-card">
-          <a href=""><img src="assets/Primeiralandingpage.png" alt class="projeto-img"></a>
+          <a href="https://primeiralandingpagevitor.netlify.app">
+            <img src="assets/Primeiralandingpage.png" alt class="projeto-img">
+          </a>
         <h3>Landing Page</h3>
         <p></p>
         <span>Tecnologias usadas no projeto: HTML e CSS</span>
         </section>
 
         <section class="projeto-card">
-          <a href=""><img src="" alt class="projeto-img"></a>
+          <a href="">
+            <img src="" alt class="projeto-img">
+          </a>
           <h3>Site Internacional</h3>
           <p></p>
-          <span>Tecnologias usadas no projeto: HTML e CSS</span>
+          <span>Tecnologias usadas no projeto: HTML, CSS, JavaScript e Wordpres</span>
         </section>
 
         <section class="projeto-card">
-          <a href=""><img src="" alt class="projeto-img"></a>
+          <a href="">
+            <img src="" alt class="projeto-img">
+          </a>
           <h3>EM BREVE</h3>
           <p></p>
           <span>Tecnologias usadas no projeto: </span>
         </section>
 
         <section class="projeto-card">
-          <a href=""><img src="" alt class="projeto-img"></a>
+          <a href="">
+            <img src="" alt class="projeto-img">
+          </a>
           <h3>EM BREVE</h3>
           <p></p>
-          <span>Tecnologias usadas no projeto: S</span>
+          <span>Tecnologias usadas no projeto:</span>
         </section>
       </div>
     </section>
@@ -139,6 +153,8 @@
       </div>
     </footer>
     <!-- Footer -->
+
+    <a class="back-to-top" href="#inicio">➤</a>
     
     <script src="scripts/escritor.js"></script>
     <script src="scripts/"></script>

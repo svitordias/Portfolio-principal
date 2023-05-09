@@ -222,7 +222,8 @@
 }
 
 .projeto-img {
-    width: 100%;
+    justify-content: center;
+    width: 0%;
 }
 /* Criando Projetos */
 
@@ -257,3 +258,22 @@
     border-radius: 5px;
 }
 /* Scrollbar */
+
+/* Voltar pra cima */
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--primary-color);
+}
+/* Voltar pra cima */
