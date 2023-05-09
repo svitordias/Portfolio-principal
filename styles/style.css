@@ -92,6 +92,20 @@
     
 }
 
+#escritor {
+    font: 500 4rem monospace;
+    color: var(--escrita);
+}
+
+#escritor::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {opacity: 0;}
+}
+
 .inicio-img img{
     max-width: 100%;
     height: auto;
