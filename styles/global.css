@@ -81,5 +81,7 @@ a {
 }
 
 .menu-spacing {
-  height: 65px;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  background-color: var(--light-gray-color-2);
 }
