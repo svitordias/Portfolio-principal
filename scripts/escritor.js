@@ -1,6 +1,6 @@
 const escritor = document.getElementById("escritor");
 let line = [
-    "Vitor Dias Sousa", "Seja bem vindo!"
+    "Vitor Dias Sousa"
 ];
 let i = 0, j = 0, wait =6;
 setInterval(() => {
