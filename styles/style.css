@@ -67,8 +67,7 @@
 
 /* Criando inicio */
 .inicio-content {
-    padding-top: 0;
-    top: -6.5rem;
+    margin-top: -5rem;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: var(--gap);
