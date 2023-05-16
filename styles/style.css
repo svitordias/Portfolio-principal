@@ -360,6 +360,7 @@ h3 {
     font-size: 3rem;
 }
 
+/* Menu */
 .close-menu-label::after {
     content: '≡';
     position: fixed;
@@ -392,7 +393,7 @@ h3 {
     display: none;
 }
 
-.inicio-content, .sobre-mim, .projetos-content {
+.inicio-content, .sobre-mim, .projetos-content, .footer-content {
     width: 100vh;
 }
 
@@ -413,7 +414,9 @@ h3 {
 .menu-content ul li a {
     font-size: 35px;
 }
+/* Menu */
 
+/* Inicio */
 .inicio-content {
     align-items: center;
     grid-template-columns: 1fr;
@@ -437,16 +440,19 @@ h3 {
     font-size: 20px;
 }
 
-.principal-botao-github {
+.principal-botao-github, .principal-botao-linkedin, 
+.principal-botao-curriculo {
     width: 150px;
 }
 
 .social-content p {
     font-size: 20px;
 }
+/* Inicio */
 
+/* Sobre */
 .sobre-mim p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .sobre-mim {
@@ -463,8 +469,36 @@ h3 {
     width: 50%;
 }
 
+.sobre-content {
+    padding: 0;
+}
+
+.sobre-descricao {
+    padding-left: 10rem;
+} 
+
+.sobre-descricao h3 {
+    font-size: 22px;
+}
+
+.principal-botao-curriculo {
+    gap: var(--gap);
+}
+
+.principal-botao-curriculo p{
+    font-size: 20px;
+}
+
+.principal-botao-curriculo img {
+    padding: 0;
+    width: 22px;
+}
+/* Sobre */
+
+/* Projetos */
 .projetos {
     grid-template-columns: 1fr;
+    
 }
 
 .projetos-content p {
@@ -479,4 +513,25 @@ h3 {
 .projeto-card {
     justify-content: center;
 }
+/* Projetos */
+
+/* Habilidades */
+
+/* Habilidades */
+.habilidade {
+    width: 67%;
+}
+
+.habilidade-content {
+    width: 100vh;
+}
+
+.habilidade img {
+    width: 40px;
+}
+/* Footer */
+.footer-content p {
+    font-size: 20px;
+}
+/* Footer */
 }
