@@ -328,8 +328,8 @@
     bottom: 3rem;
     right: 3rem;
     background: var(--white);
-    width: 6rem;
-    height: 6rem;
+    width: 7rem;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -376,7 +376,7 @@ h3 {
 
 .menu-content {
     height: 100vh;
-    padding-top: 22rem;
+    padding-top: 15rem;
 }
 
 .menu-content, .menu-content ul {
@@ -385,11 +385,11 @@ h3 {
 }
 
 .menu-content h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
 }
 
 .menu-content ul li a {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .close-menu-label::after {
@@ -400,10 +400,10 @@ h3 {
     right: 3rem;
     background: var(--primary-color);
     color: var(--white);
-    font-size: 5rem;
-    line-height: 5rem;
-    width: 5rem;
-    height: 5rem;
+    font-size: 6rem;
+    line-height: 6rem;
+    width: 6rem;
+    height: 6rem;
     text-align: center;
     padding: 0.5rem;
     cursor: pointer;
