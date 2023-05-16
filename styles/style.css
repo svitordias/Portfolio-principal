@@ -325,11 +325,11 @@
 /* Voltar pra cima */
 .back-to-top {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 3rem;
+    right: 3rem;
     background: var(--white);
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -337,7 +337,7 @@
     border-radius: 50%;
     color: var(--primary-color);
     transform: rotate(-90deg);
-    border: 0.1rem solid var(--primary-color);
+    border: 0.2rem solid var(--primary-color);
 }
 /* Voltar pra cima */
 
@@ -345,14 +345,15 @@
     display: none;
 }
 
+
 /* Responsivo */
 @media (max-width: 900px) {
 #escritor {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h3 {
@@ -360,16 +361,22 @@ h3 {
 }
 
 .sobre-mim p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .menu {
     bottom: 0;
     text-align: center;
+    display: none;
 }
 
 .inicio-content, .sobre-mim, .projetos-content {
     width: 100vh;
+}
+
+.menu-content {
+    height: 100vh;
+    padding-top: 22rem;
 }
 
 .menu-content, .menu-content ul {
@@ -377,12 +384,12 @@ h3 {
     justify-content: center;
 }
 
-.menu-content {
-    height: 100vh;
+.menu-content h1 {
+    font-size: 3.5rem;
 }
 
-.menu {
-    display: none;
+.menu-content ul li a {
+    font-size: 25px;
 }
 
 .close-menu-label::after {
@@ -424,12 +431,14 @@ h3 {
 
 .inicio-text-content {
     align-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     padding-top: 0;
     gap: var(--gap);
 }
 
 .inicio-text-content p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .principal-botao-github {
