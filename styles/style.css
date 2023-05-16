@@ -349,7 +349,7 @@
 /* Responsivo */
 @media (max-width: 900px) {
 #escritor {
-    font-size: 3.5rem;
+    font-size: 30px;
 }
 
 h2 {
@@ -360,8 +360,30 @@ h3 {
     font-size: 3rem;
 }
 
-.sobre-mim p {
-    font-size: 20px;
+.close-menu-label::after {
+    content: '≡';
+    position: fixed;
+    z-index: 2;
+    top: 3rem;
+    right: 3rem;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 6rem;
+    line-height: 6rem;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.close-menu:checked~.menu {
+    display: block;
+}
+
+.close-menu:checked~.close-menu-label::after {
+    display: block;
+    content: '×';
 }
 
 .menu {
@@ -392,32 +414,6 @@ h3 {
     font-size: 40px;
 }
 
-.close-menu-label::after {
-    content: '≡';
-    position: fixed;
-    z-index: 2;
-    top: 3rem;
-    right: 3rem;
-    background: var(--primary-color);
-    color: var(--white);
-    font-size: 6rem;
-    line-height: 6rem;
-    width: 6rem;
-    height: 6rem;
-    text-align: center;
-    padding: 0.5rem;
-    cursor: pointer;
-}
-
-.close-menu:checked~.menu {
-    display: block;
-}
-
-.close-menu:checked~.close-menu-label::after {
-    display: block;
-    content: '×';
-}
-
 .inicio-content {
     align-items: center;
     grid-template-columns: 1fr;
@@ -446,6 +442,10 @@ h3 {
 }
 
 .social-content p {
+    font-size: 20px;
+}
+
+.sobre-mim p {
     font-size: 20px;
 }
 
