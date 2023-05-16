@@ -225,11 +225,6 @@
 /* Sobre criado */
 
 /* Criando Projetos */
-.projetos-content {
-    margin-bottom: 10rem;
-
-}
-
 .projetos-content h2 {
     letter-spacing: 0.3rem;
     margin-top: 5rem;
@@ -346,43 +341,19 @@
 }
 /* Voltar pra cima */
 
-
-.close-meu {
+.close-menu {
     display: none;
 }
 
 /* Responsivo */
-@media (max-width: 840px) {
-.inicio-content, .sobre-mim, .social-content, 
-.projetos-content, .projetos, .habilidade {
-    padding: 22px;
-    text-align: center;
-    
-}
-
-.social-content {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 12.3rem;
-}
-
-.inicio-content {
-    grid-template-columns: 1fr;
-}
-
-.inicio-img {
-    display: none;
-}
-
-.sobre-mim {
-    
-    display: block;
-}
-
+@media (max-width: 880px) {
 .menu {
     bottom: 0;
     text-align: center;
-    
+}
+
+.inicio {
+    width: 100vh;
 }
 
 .menu-content, .menu-content ul {
@@ -424,4 +395,39 @@
     content: '×';
 }
 
+
+.inicio-content {
+    align-items: center;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.inicio-img {
+    display: none;
+}
+
+.inicio-text-content {
+    align-content: center;
+    padding: 0;
+}
+
+.inicio-text-content p a {
+    font-size: 14px;
+}
+
+.inicio-text-content img {
+    width: 25px;
+}
+
+#escritor {
+    font-size: 30px;
+}
+
+.sobre-mim {
+    display: block;
+}
+
+.projetos {
+    grid-template-columns: 1fr;
+}
 }
